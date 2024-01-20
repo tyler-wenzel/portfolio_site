@@ -3,10 +3,9 @@ const express = require('express')
 const app = express();
 
 const PORT = 3000
-const HOST = 'localhost'
 
 app.use(express.static('public'))
 
-app.listen(PORT, HOST, () => {
+app.listen(PORT, () => {
   console.log("app listening on PORT 3000")
 });
