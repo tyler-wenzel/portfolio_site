@@ -4,6 +4,8 @@ const app = express();
 
 const PORT = 3000
 
+console.log('commit');
+
 app.use(express.static('public'))
 
 app.listen(PORT, () => {
